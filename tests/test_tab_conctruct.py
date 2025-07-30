@@ -21,4 +21,4 @@ class TestTabConstruct:
         driver.find_element(*Locators.TAB_TOPPINGS).click()
         wait.until(EC.visibility_of_element_located(Locators.TOPPINGS))
         current_tab = wait.until(EC.visibility_of_element_located(Locators.CURRENT_TAB))
-        assert current_tab.text == 'Начинки'
+        assert current_tab.text == 'Начинки' 

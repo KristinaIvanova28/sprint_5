@@ -32,3 +32,4 @@ def pre_login(driver, wait):
         wait.until(EC.element_to_be_clickable(Locators.BUT_ENTER)).click()
     return login
 
+

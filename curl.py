@@ -16,5 +16,3 @@ forgot_password_page_url = f'{base_url}/forgot-password'
 
 # URL профиля (личного кабинета)
 profile_page_url = f'{base_url}/account/profile'
-
-

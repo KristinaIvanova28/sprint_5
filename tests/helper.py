@@ -12,4 +12,4 @@ def generate_registration_data_short_password(): # Генерируем корт
     name = faker.name()
     email = faker.email()
     password = faker.password(length=5, special_chars=True, digits=True, upper_case=True, lower_case=True)
-    return name, email, password
+    return name, email, password 

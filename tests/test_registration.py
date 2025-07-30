@@ -29,5 +29,4 @@ class TestRegistration:
 
         assert driver.current_url==register_page_url
         assert wait.until(EC.visibility_of_element_located(Locators.ERROR_MESS)).is_displayed()
-
-
+        

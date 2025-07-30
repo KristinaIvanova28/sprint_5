@@ -27,4 +27,4 @@ class TestAuth:
         wait.until(EC.element_to_be_clickable(Locators.LINK_LOGIN)).click()
         wait.until(EC.visibility_of_element_located(Locators.BUT_ENTER))
         pre_login()
-        assert wait.until(EC.visibility_of_element_located(Locators.BUT_ORDER)).is_displayed()
+        assert wait.until(EC.visibility_of_element_located(Locators.BUT_ORDER)).is_displayed() 
